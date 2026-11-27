@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" data-theme="light" data-mode="pomodoro">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#c25542" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="PUMOPOKUS" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta
+      name="description"
+      content="PUMOPOKUS is a free Pomodoro timer built for Filipino students: focus rounds, custom breaks, and a calm interface in English and Filipino."
+    />
+    <title>PUMOPOKUS</title>
+    <script>
+      try {
+        var raw = localStorage.getItem('pumopokus.settings')
+        var theme = 'system'
+        if (raw) {
+          var parsed = JSON.parse(raw)
+          if (parsed && parsed.data && parsed.data.theme) theme = parsed.data.theme
+        }
+        var dark =
+          theme === 'dark' ||
+          (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light'
+      } catch (error) {
+        document.documentElement.dataset.theme = 'light'
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

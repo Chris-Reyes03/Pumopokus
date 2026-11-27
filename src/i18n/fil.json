@@ -1,0 +1,337 @@
+{
+  "app": {
+    "wordmark": "pumopokus",
+    "skipToContent": "Lumaktaw sa timer"
+  },
+  "nav": {
+    "settings": "Mga setting"
+  },
+  "modes": {
+    "pomodoro": "Pomodoro",
+    "shortBreak": "Maikling pahinga",
+    "longBreak": "Mahabang pahinga"
+  },
+  "timer": {
+    "modeTabsLabel": "Mode ng timer",
+    "remainingLabel": "{{mode}} timer, {{time}} ang natitira",
+    "start": "Simulan",
+    "pause": "I-pause",
+    "resume": "Ituloy",
+    "skip": "Laktawan ang round",
+    "reset": "I-reset ang round",
+    "timeToFocus": "Oras na para mag-focus!",
+    "timeForBreak": "Oras na para magpahinga.",
+    "timeForLongBreak": "Mahabang pahinga — deserve mo 'yan.",
+    "spaceHint": "Tip: pindutin ang Space para magsimula o mag-pause",
+    "documentTitle": "{{time}} — {{mode}} | PUMOPOKUS",
+    "idleTitle": "PUMOPOKUS — Pomodoro timer para sa mga estudyanteng Pilipino",
+    "announcement": {
+      "running": "Nagsimula ang {{mode}}",
+      "paused": "Naka-pause ang {{mode}}",
+      "ready": "Handa na ang {{mode}}"
+    }
+  },
+  "settings": {
+    "title": "Mga setting",
+    "subtitle": "Gawin mong sarili ang timer. Kusang nase-save ang mga pagbabago.",
+    "close": "Isara ang mga setting",
+    "durations": {
+      "title": "Haba ng session",
+      "description": "Gaano katagal ang bawat round, sa minuto.",
+      "pomodoro": "Pomodoro",
+      "shortBreak": "Maikling pahinga",
+      "longBreak": "Mahabang pahinga"
+    },
+    "interval": {
+      "label": "Long break pagkatapos ng",
+      "description": "Bilang ng focus session bago ang mahabang pahinga.",
+      "decrease": "Bawasan ang long break interval",
+      "increase": "Dagdagan ang long break interval"
+    },
+    "autoStart": {
+      "title": "Auto-start",
+      "description": "Magsisimula agad ang susunod na session kapag natapos ang kasalukuyan.",
+      "breaks": "Kusang simulan ang pahinga",
+      "pomodoros": "Kusang simulan ang pomodoro"
+    },
+    "appearance": {
+      "title": "Itsura",
+      "description": "Maliwanag, madilim, o sundin ang device.",
+      "theme": "Tema"
+    },
+    "language": {
+      "title": "Wika",
+      "description": "Piliin ang wika ng buong app."
+    },
+    "sound": {
+      "title": "Tunog",
+      "description": "Tumutunog ang malambot na chime kapag natapos ang round.",
+      "chime": "Chime sa dulo ng round",
+      "volume": "Lakas ng chime",
+      "preview": "Pakinggan",
+      "muted": "Naka-mute"
+    },
+    "lightData": {
+      "title": "Light data mode",
+      "description": "Nagtitipid sa data at battery dahil patay ang tunog ng pag-aaral at mga dekorasyong galaw.",
+      "toggle": "I-on ang light data mode"
+    },
+    "notifications": {
+      "title": "Mga abiso",
+      "description": "Magpakita ng system notification kapag tapos na ang round habang nasa background ang tab.",
+      "toggle": "Abiso sa pagtatapos ng round",
+      "blocked": "Naka-block ang mga abiso. Payagan ang mga ito para sa site na ito sa browser settings.",
+      "unsupported": "Hindi sinusuportahan ng browser na ito ang mga abiso.",
+      "notGranted": "Hindi naibigay ang pahintulot sa abiso."
+    },
+    "reset": {
+      "action": "Ibalik sa default",
+      "confirm": "Ibalik sa default ang haba ng session, long break interval, auto-start, tema, tunog, light data mode, at mga abiso?",
+      "description": "Apektado ang haba ng session, long break interval, auto-start, tema, tunog, light data mode, at mga abiso. Mananatili ang wika mo."
+    },
+    "runningNotice": "Mag-aapply ang mga pagbabago simula sa susunod na round habang tumatakbo ang timer.",
+    "decrease": "Bawasan ang {{label}}",
+    "increase": "Dagdagan ang {{label}}"
+  },
+  "theme": {
+    "light": "Maliwanag",
+    "dark": "Madilim",
+    "system": "Sundin ang device"
+  },
+  "language": {
+    "label": "Wika",
+    "english": "English",
+    "filipino": "Filipino",
+    "short": {
+      "en": "EN",
+      "fil": "FIL"
+    }
+  },
+  "header": {
+    "switchTheme": "Lumipat sa {{theme}}"
+  },
+  "common": {
+    "minutesShort": "min"
+  },
+  "subjects": {
+    "math": "Math",
+    "science": "Agham",
+    "english": "English",
+    "filipino": "Filipino"
+  },
+  "tasks": {
+    "title": "Mga gawain",
+    "subtitle": "Pumili ng isang gawain para pagtuunan. Naka-save ang bawat natapos na focus session kasama ang asignatura nito.",
+    "nameLabel": "Pangalan ng gawain",
+    "namePlaceholder": "Ano ang ginagawa mo?",
+    "subject": "Asignatura",
+    "estimate": "Tantya",
+    "addAction": "Idagdag",
+    "newSubject": "+ Bagong asignatura",
+    "cancel": "Kanselahin",
+    "subjectName": "Pangalan ng asignatura",
+    "subjectNamePlaceholder": "Hal. Chemistry",
+    "subjectColor": "Kulay ng asignatura",
+    "addSubject": "Idagdag ang asignatura",
+    "noSubject": "Walang asignatura",
+    "empty": "Wala pang gawain. Magdagdag ng isa at bibilangin ito ng timer para sa iyo.",
+    "active": "Focus",
+    "focusingOn": "Focus: {{name}}",
+    "progress": "{{done}} sa {{estimate}} pomodoro",
+    "markDone": "Markahan na tapos ang gawain",
+    "markNotDone": "Markahan na hindi pa tapos ang gawain",
+    "edit": "I-edit ang gawain",
+    "delete": "Burahin ang gawain",
+    "deleteConfirm": "Burahin ang gawaing ito? Mananatili sa history ang mga natapos na session.",
+    "save": "I-save"
+  },
+  "reward": {
+    "title": "Ang galing!",
+    "subtitle": "Isang focus session ang natapos. Narito ang isang maliit na regalo para sa pahinga mo.",
+    "close": "Ituloy"
+  },
+  "streak": {
+    "badge_one": "{{count}}-araw na streak",
+    "badge_other": "{{count}}-araw na streak",
+    "start": "Simulan ang streak ngayon"
+  },
+  "stats": {
+    "title": "Ang focus mo",
+    "subtitle": "Mga natapos na focus session sa nakaraang 26 na linggo.",
+    "today": "Ngayon",
+    "currentStreak": "Streak ngayon",
+    "longestStreak": "Rekord",
+    "minutes": "{{minutes}} min",
+    "days_one": "{{count}} araw",
+    "days_other": "{{count}} araw",
+    "summary": "{{minutes}} minutong focus sa {{days}} aktibong araw.",
+    "tooltip": "{{date}}: {{minutes}} min",
+    "less": "Kaunti",
+    "more": "Marami"
+  },
+  "ambient": {
+    "title": "Tunog ng pag-aaral",
+    "subtitle": "Maghalo ng mahinang tunog sa focus mo. Ginagawa lahat sa device mo, kaya walang dina-download.",
+    "play": "Patugtugin",
+    "pause": "I-pause ang tunog",
+    "rain": "Ulan",
+    "ocean": "Alon",
+    "brown": "Brown noise",
+    "volume": "Lakas ng {{name}}",
+    "muted": "Naka-mute",
+    "lightDataNotice": "Naka-on ang light data mode. Patayin ito sa Mga setting para magamit ang tunog ng pag-aaral."
+  },
+  "notifications": {
+    "roundEnd": {
+      "title": "Tapos na ang {{mode}}",
+      "body": "Handa na ang {{next}} mo."
+    }
+  },
+  "reports": {
+    "title": "Mga ulat",
+    "subtitle": "Ang mga nakaraang focus session mo, sa isang tingin.",
+    "exam": {
+      "title": "Countdown sa exam",
+      "label": "Petsa ng susunod na exam",
+      "clear": "Alisin",
+      "empty": "Magtakda ng petsa ng exam para magsimula ang countdown.",
+      "days_one": "{{count}} araw na lang",
+      "days_other": "{{count}} araw na lang",
+      "today": "Exam na ngayon",
+      "past": "Nakalipas na ang petsa ng exam"
+    },
+    "week": {
+      "title": "Huling 7 araw",
+      "total_one": "{{minutes}} min sa {{count}} session",
+      "total_other": "{{minutes}} min sa {{count}} session",
+      "barTitle": "{{day}}: {{minutes}} min",
+      "empty": "Walang focus session sa huling 7 araw."
+    },
+    "bySubject": {
+      "title": "Huling 30 araw ayon sa asignatura",
+      "minutes": "{{minutes}} min",
+      "unknown": "Iba pa",
+      "none": "Walang asignatura",
+      "empty": "Walang datos ng asignatura sa huling 30 araw."
+    },
+    "history": {
+      "title": "Kasaysayan ng session",
+      "today": "Ngayon",
+      "yesterday": "Kahapon",
+      "focus": "Focus session",
+      "minutes": "{{minutes}} min",
+      "empty": "Lalabas dito ang mga natapos na focus session."
+    }
+  },
+  "landing": {
+    "pageTitle": "PUMOPOKUS — Pomodoro timer para sa mga estudyanteng Pilipino",
+    "guideLink": "Basahin ang gabay sa pag-aaral",
+    "eyebrow": "Para sa mga estudyanteng Pilipino",
+    "intro": {
+      "title": "Pomodoro timer para sa pokus na pag-aaral",
+      "lead": "Ang PUMOPOKUS ay libreng online na Pomodoro timer para sa mga estudyanteng gustong mag-focus nang walang abala. Pumili ng session, pindutin ang simula, at hayaang ang timer ang mag-alaga ng oras mo.",
+      "description": "Ang pangalan ay mapaglarong pagsasama ng pomodoro at pokus. Gumagana ito nang walang account, sa phone o laptop, at naaalala ang mga setting mo sa device na ito."
+    },
+    "about": {
+      "title": "Ano ang PUMOPOKUS?",
+      "paragraphs": [
+        "Ang PUMOPOKUS ay isang kalmado at makulay na Pomodoro timer para sa mga estudyante. Nasa isang lugar ang mga mahalaga: focus session, maiikling pahinga, mahabang pahinga, at malambot na chime kapag tapos na ang oras.",
+        "Kayang i-adjust ang lahat. Itakda ang habang bagay sa pagbabasa, review, o pagsagot ng problem set, pumili ng light o dark, at magpalit sa English at Filipino. Walang sign-up, walang feed, walang dagdag na ingay."
+      ]
+    },
+    "technique": {
+      "title": "Ano ang Pomodoro Technique?",
+      "paragraphs": [
+        "Ang Pomodoro Technique ay isang paraan ng pamamahala ng oras na binuo ni Francesco Cirillo noong huling bahagi ng 1980s. Hinahati nito ang trabaho sa maiikling focus session na may kasamang maikling pahinga.",
+        "Ang klasikong ritmo ay 25 minutong focus, 5 minutong pahinga, at mas mahabang pahinga pagkatapos ng apat na focus session. Nagmula ang pangalan sa hugis-kamatis na kitchen timer na ginamit ni Cirillo noong estudyante siya.",
+        "Gabay lamang ang method, hindi batas. Pinapayagan ka ng PUMOPOKUS na baguhin ang haba para umangkop sa paraan ng pag-aaral mo."
+      ],
+      "credit": "Pomodoro Technique ni Francesco Cirillo."
+    },
+    "how": {
+      "title": "Paano gamitin ang PUMOPOKUS",
+      "intro": "Nasa timer screen ang lahat ng kailangan. Sapat na ang limang hakbang na ito para magsimula.",
+      "steps": [
+        {
+          "title": "Pumili ng session",
+          "body": "Piliin ang Pomodoro para sa focus, Maikling pahinga para sa mabilis na reset, o Mahabang pahinga kapag kailangan ng mas mahabang pahinga."
+        },
+        {
+          "title": "Itakda ang ritmo",
+          "body": "Buksan ang Mga setting para i-adjust ang haba ng session at kung ilang focus session bago ang mahabang pahinga."
+        },
+        {
+          "title": "Simulan ang timer",
+          "body": "Pindutin ang Simulan o ang Space bar. Mag-focus sa isang gawain hanggang tumunog ang chime."
+        },
+        {
+          "title": "Magpahinga",
+          "body": "Lumayo sandali para sa maikling pahinga. Pagkatapos ng napiling bilang ng focus session, magpahinga nang mas matagal."
+        },
+        {
+          "title": "Ulitin at i-reset",
+          "body": "Simulan ang susunod na session kapag handa ka na. Naka-save ang mga preference mo sa device na ito."
+        }
+      ]
+    },
+    "features": {
+      "title": "Mga pangunahing feature",
+      "description": "Available na ngayon, walang account.",
+      "items": [
+        "Timestamp-based na timer na tumpak kahit nasa background tab",
+        "Custom na haba ng focus, maikling pahinga, at mahabang pahinga",
+        "Adjustable na long-break interval, auto-start, at automatic na pagpalit ng mode",
+        "Malambot na chime sa dulo ng session at countdown sa tab title",
+        "Light, dark, at system themes",
+        "English at Filipino na interface",
+        "Mga gawain na may subject tags, tantya, at reward quote pagkatapos ng bawat focus session",
+        "Daily na focus streak at 26-linggong activity heatmap",
+        "Linggo-linggo at ayon-sa-asignaturang ulat na may exam countdown",
+        "Ambient na tunog ng pag-aaral, ginagawa sa device mo",
+        "Light data mode na nagtitipid sa data at battery",
+        "Keyboard support at mobile-first na layout",
+        "Naka-save nang lokal ang mga setting at gawain sa device mo"
+      ]
+    },
+    "roadmap": {
+      "title": "Malapit na",
+      "description": "Ang mga susunod na kabanata ng PUMOPOKUS. Nakaplano pa lang, wala pa sa app.",
+      "groups": [
+        {
+          "title": "Sabay mag-aral",
+          "items": [
+            "Accounts at cloud sync",
+            "Study groups at live rooms",
+            "Leaderboards kasama ang mga kaibigan"
+          ]
+        },
+        {
+          "title": "PUMOPOKUS Pro",
+          "items": [
+            "Karagdagang themes",
+            "Advanced na statistics",
+            "Walang limitasyong rooms",
+            "Mas malaking koleksyon ng quotes"
+          ]
+        },
+        {
+          "title": "I-install at offline",
+          "items": ["Installable na web app", "Offline na timer at settings"]
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Para sa mga estudyanteng Pilipino. Kaya mo 'yan.",
+      "navLabel": "Nabigasyon sa footer",
+      "links": {
+        "timer": "Timer",
+        "guide": "Gabay",
+        "features": "Mga feature",
+        "settings": "Mga setting",
+        "top": "Bumalik sa taas"
+      },
+      "credit": "Pomodoro Technique ni Francesco Cirillo.",
+      "copyright": "© {{year}} PUMOPOKUS. Nakalaan ang lahat ng karapatan."
+    }
+  }
+}

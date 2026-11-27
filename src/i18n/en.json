@@ -1,0 +1,337 @@
+{
+  "app": {
+    "wordmark": "pumopokus",
+    "skipToContent": "Skip to timer"
+  },
+  "nav": {
+    "settings": "Settings"
+  },
+  "modes": {
+    "pomodoro": "Pomodoro",
+    "shortBreak": "Short break",
+    "longBreak": "Long break"
+  },
+  "timer": {
+    "modeTabsLabel": "Timer mode",
+    "remainingLabel": "{{mode}} timer, {{time}} remaining",
+    "start": "Start",
+    "pause": "Pause",
+    "resume": "Resume",
+    "skip": "Skip round",
+    "reset": "Reset round",
+    "timeToFocus": "Time to focus!",
+    "timeForBreak": "Time for a break.",
+    "timeForLongBreak": "Long break — you earned it.",
+    "spaceHint": "Tip: press Space to start or pause",
+    "documentTitle": "{{time}} — {{mode}} | PUMOPOKUS",
+    "idleTitle": "PUMOPOKUS — Pomodoro timer for Filipino students",
+    "announcement": {
+      "running": "{{mode}} started",
+      "paused": "{{mode}} paused",
+      "ready": "{{mode}} ready"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Make the timer yours. Changes save automatically.",
+    "close": "Close settings",
+    "durations": {
+      "title": "Session lengths",
+      "description": "How long each round lasts, in minutes.",
+      "pomodoro": "Pomodoro",
+      "shortBreak": "Short break",
+      "longBreak": "Long break"
+    },
+    "interval": {
+      "label": "Long break after",
+      "description": "Focus sessions before a long break.",
+      "decrease": "Decrease long break interval",
+      "increase": "Increase long break interval"
+    },
+    "autoStart": {
+      "title": "Auto-start",
+      "description": "The next session begins as soon as the current one ends.",
+      "breaks": "Start breaks automatically",
+      "pomodoros": "Start pomodoros automatically"
+    },
+    "appearance": {
+      "title": "Appearance",
+      "description": "Light, dark, or follow your device.",
+      "theme": "Theme"
+    },
+    "language": {
+      "title": "Language",
+      "description": "Choose the language for the whole app."
+    },
+    "sound": {
+      "title": "Sound",
+      "description": "A soft chime plays when a round finishes.",
+      "chime": "End-of-round chime",
+      "volume": "Chime volume",
+      "preview": "Preview",
+      "muted": "Muted"
+    },
+    "lightData": {
+      "title": "Light data mode",
+      "description": "Uses less data and battery by keeping study sounds and decorative motion off.",
+      "toggle": "Turn on light data mode"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Show a system notification when a round ends while the tab is in the background.",
+      "toggle": "Round-end notifications",
+      "blocked": "Notifications are blocked. Allow them for this site in your browser settings.",
+      "unsupported": "This browser does not support notifications.",
+      "notGranted": "Notification permission was not granted."
+    },
+    "reset": {
+      "action": "Restore defaults",
+      "confirm": "Reset durations, long-break interval, auto-start, theme, sound, light data mode, and notifications to their defaults?",
+      "description": "This affects durations, long-break interval, auto-start, theme, sound, light data mode, and notifications. Your language stays as it is."
+    },
+    "runningNotice": "Changes apply from the next round while the timer is running.",
+    "decrease": "Decrease {{label}}",
+    "increase": "Increase {{label}}"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "filipino": "Filipino",
+    "short": {
+      "en": "EN",
+      "fil": "FIL"
+    }
+  },
+  "header": {
+    "switchTheme": "Switch to {{theme}} mode"
+  },
+  "common": {
+    "minutesShort": "min"
+  },
+  "subjects": {
+    "math": "Math",
+    "science": "Science",
+    "english": "English",
+    "filipino": "Filipino"
+  },
+  "tasks": {
+    "title": "Tasks",
+    "subtitle": "Pick one task to focus on. Each completed focus session is saved with its subject.",
+    "nameLabel": "Task name",
+    "namePlaceholder": "What are you working on?",
+    "subject": "Subject",
+    "estimate": "Est.",
+    "addAction": "Add",
+    "newSubject": "+ New subject",
+    "cancel": "Cancel",
+    "subjectName": "Subject name",
+    "subjectNamePlaceholder": "e.g. Chemistry",
+    "subjectColor": "Subject color",
+    "addSubject": "Add subject",
+    "noSubject": "No subject",
+    "empty": "No tasks yet. Add one and the timer will keep count for you.",
+    "active": "Focusing",
+    "focusingOn": "Focusing: {{name}}",
+    "progress": "{{done}} of {{estimate}} pomodoros",
+    "markDone": "Mark task done",
+    "markNotDone": "Mark task not done",
+    "edit": "Edit task",
+    "delete": "Delete task",
+    "deleteConfirm": "Delete this task? Completed sessions stay in your history.",
+    "save": "Save"
+  },
+  "reward": {
+    "title": "Nice work!",
+    "subtitle": "One focus session done. Here's a little something for your break.",
+    "close": "Keep going"
+  },
+  "streak": {
+    "badge_one": "{{count}}-day streak",
+    "badge_other": "{{count}}-day streak",
+    "start": "Start a streak today"
+  },
+  "stats": {
+    "title": "Your focus",
+    "subtitle": "Completed focus sessions over the last 26 weeks.",
+    "today": "Today",
+    "currentStreak": "Current streak",
+    "longestStreak": "Longest",
+    "minutes": "{{minutes}} min",
+    "days_one": "{{count}} day",
+    "days_other": "{{count}} days",
+    "summary": "{{minutes}} focus minutes across {{days}} active days.",
+    "tooltip": "{{date}}: {{minutes}} min",
+    "less": "Less",
+    "more": "More"
+  },
+  "ambient": {
+    "title": "Study sounds",
+    "subtitle": "Mix gentle background sound into your focus. Everything is generated on your device, so nothing is downloaded.",
+    "play": "Play sounds",
+    "pause": "Pause sounds",
+    "rain": "Rain",
+    "ocean": "Ocean waves",
+    "brown": "Brown noise",
+    "volume": "{{name}} volume",
+    "muted": "Muted",
+    "lightDataNotice": "Light data mode is on. Turn it off in Settings to use study sounds."
+  },
+  "notifications": {
+    "roundEnd": {
+      "title": "{{mode}} complete",
+      "body": "Your {{next}} is ready."
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "subtitle": "Your recent focus sessions, at a glance.",
+    "exam": {
+      "title": "Exam countdown",
+      "label": "Next exam date",
+      "clear": "Clear",
+      "empty": "Set an exam date to start the countdown.",
+      "days_one": "1 day to go",
+      "days_other": "{{count}} days to go",
+      "today": "Exam day is today",
+      "past": "Exam date has passed"
+    },
+    "week": {
+      "title": "Last 7 days",
+      "total_one": "{{minutes}} min in 1 session",
+      "total_other": "{{minutes}} min in {{count}} sessions",
+      "barTitle": "{{day}}: {{minutes}} min",
+      "empty": "No focus sessions in the last 7 days."
+    },
+    "bySubject": {
+      "title": "Last 30 days by subject",
+      "minutes": "{{minutes}} min",
+      "unknown": "Other",
+      "none": "No subject",
+      "empty": "No subject data in the last 30 days."
+    },
+    "history": {
+      "title": "Session history",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "focus": "Focus session",
+      "minutes": "{{minutes}} min",
+      "empty": "Completed focus sessions will appear here."
+    }
+  },
+  "landing": {
+    "pageTitle": "PUMOPOKUS — a Pomodoro timer for Filipino students",
+    "guideLink": "Read the study guide",
+    "eyebrow": "Made for Filipino students",
+    "intro": {
+      "title": "A Pomodoro timer for focused study",
+      "lead": "PUMOPOKUS is a free online Pomodoro timer built for students who want to focus without the fuss. Pick a session, press start, and let the timer hold the space for you.",
+      "description": "The name is a playful mix of pomodoro and pokus—focus. It works without an account, on phone or laptop, and remembers your settings on this device."
+    },
+    "about": {
+      "title": "What is PUMOPOKUS?",
+      "paragraphs": [
+        "PUMOPOKUS is a calm, colorful Pomodoro timer for students. It keeps the essentials in one place: focus sessions, short breaks, long breaks, and a soft chime when time is up.",
+        "Everything is adjustable. Set the lengths that fit your reading, review, or problem-set session, choose light or dark, and switch between English and Filipino. No sign-up, no feed, no extra noise."
+      ]
+    },
+    "technique": {
+      "title": "What is the Pomodoro Technique?",
+      "paragraphs": [
+        "The Pomodoro Technique is a time-management method developed by Francesco Cirillo in the late 1980s. It breaks work into short, timed focus sessions separated by brief breaks.",
+        "The classic rhythm is 25 minutes of focus, a 5-minute break, and a longer break after four focus sessions. The name comes from the tomato-shaped kitchen timer Cirillo used as a student.",
+        "The method is a guide, not a rule. PUMOPOKUS lets you change the lengths so the rhythm fits the way you study."
+      ],
+      "credit": "Pomodoro Technique by Francesco Cirillo."
+    },
+    "how": {
+      "title": "How to use PUMOPOKUS",
+      "intro": "Everything you need is on the timer screen. These five steps are enough to begin.",
+      "steps": [
+        {
+          "title": "Choose a session",
+          "body": "Pick Pomodoro for focus, Short break for a quick reset, or Long break when you need more time away."
+        },
+        {
+          "title": "Set your rhythm",
+          "body": "Open Settings to adjust session lengths and how many focus sessions come before a long break."
+        },
+        {
+          "title": "Start the timer",
+          "body": "Press Start or the Space bar. Focus on one task until the chime plays."
+        },
+        {
+          "title": "Take the break",
+          "body": "Step away for a short break. After your chosen number of focus sessions, take a longer one."
+        },
+        {
+          "title": "Repeat and reset",
+          "body": "Start the next session when you are ready. Your preferences are saved on this device."
+        }
+      ]
+    },
+    "features": {
+      "title": "Basic features",
+      "description": "Available now, without an account.",
+      "items": [
+        "Timestamp-based timer that stays accurate in background tabs",
+        "Custom focus, short-break, and long-break lengths",
+        "Adjustable long-break interval, auto-start, and automatic mode changes",
+        "Soft end-of-session chime and a countdown in the tab title",
+        "Light, dark, and system themes",
+        "English and Filipino interface",
+        "Tasks with subject tags, estimates, and a reward quote after each focus session",
+        "A daily focus streak and a 26-week activity heatmap",
+        "Weekly and subject reports with an exam countdown",
+        "Ambient study sounds, generated on your device",
+        "Light data mode that saves data and battery",
+        "Keyboard support and a mobile-first layout",
+        "Settings and tasks saved locally on your device"
+      ]
+    },
+    "roadmap": {
+      "title": "Coming soon",
+      "description": "The next chapters for PUMOPOKUS. Planned, not available yet.",
+      "groups": [
+        {
+          "title": "Study together",
+          "items": [
+            "Accounts and cloud sync",
+            "Study groups and live rooms",
+            "Leaderboards with friends"
+          ]
+        },
+        {
+          "title": "PUMOPOKUS Pro",
+          "items": [
+            "Extra themes",
+            "Advanced statistics",
+            "Unlimited rooms",
+            "A larger quote collection"
+          ]
+        },
+        {
+          "title": "Install and offline",
+          "items": ["Installable web app", "Offline timer and settings"]
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Made for Filipino students. Kaya mo 'yan.",
+      "navLabel": "Footer navigation",
+      "links": {
+        "timer": "Timer",
+        "guide": "Guide",
+        "features": "Features",
+        "settings": "Settings",
+        "top": "Back to top"
+      },
+      "credit": "Pomodoro Technique by Francesco Cirillo.",
+      "copyright": "© {{year}} PUMOPOKUS. All rights reserved."
+    }
+  }
+}
